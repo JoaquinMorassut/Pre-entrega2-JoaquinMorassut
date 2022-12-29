@@ -1,39 +1,38 @@
-*{
-padding: 0;
-margin: 0;
-box-sizing: border-box;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-body{
+
+body {
     min-width: 320px;
 }
 
 /* navbar */
-.navbar{
+.navbar {
     background: linear-gradient(lightgreen, green, darkgreen);
 }
 
 /* Footer */
-#pie{
+#pie {
     background-color: white;
 }
 
-#menu_footer ul{
+#menu_footer ul {
     list-style: none;
     margin: 0%;
     padding: 0%;
 }
 
-#menu_footer ul li{
+#menu_footer ul li {
     position: relative;
-    display: inline-block; 
+    display: inline-block;
 }
 
 
-#menu_footer ul li:hover ul li a{
-    
-}
+#menu_footer ul li:hover ul li a {}
 
-#menu_footer ul li a{
+#menu_footer ul li a {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     color: #0c0c0c;
@@ -42,45 +41,45 @@ body{
 }
 
 
-#menu_footer ul li a:hover{
+#menu_footer ul li a:hover {
     color: #06edfd;
-    
+
 }
 
-@media (max-width:700px){
-    #menu_footer{
-        flex-direction: column;   
+@media (max-width:700px) {
+    #menu_footer {
+        flex-direction: column;
     }
 
-    #menu_footer{
+    #menu_footer {
         padding: 10px 0px;
-    }    
+    }
 }
 
 .buttons {
-  min-width: 700px;
-  display: flex;
-  justify-content: space-around;
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
 }
 
-.buttons a{
-  text-decoration: none;
-  font-size: 20px;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
-  background: #314652;
-  color: #ffffff;
-  border-radius: 50%;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
-  transition: all .4s ease-in-out;
-  animation: saltarin 2s infinite;
+.buttons a {
+    text-decoration: none;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #314652;
+    color: #ffffff;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+    animation: saltarin 2s infinite;
 }
 
 
 
-@media (max-width:1200px){
+@media (max-width:1200px) {
     .buttons {
         display: none;
     }
@@ -91,3 +90,20 @@ body{
 }
 
 /* cierre de Footer */
+
+/* aca comienza el CSS de "Sobre La Tienda" */
+
+.imagen{
+background-image: url("../img/deposito1.jpg");
+height: 100vh;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.sobreLaTienda{
+background-color: rgba(0, 0, 0, 0.8);
+}
+
+.info{
+padding-top: 5%;
+}
