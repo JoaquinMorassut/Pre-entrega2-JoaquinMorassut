@@ -1,18 +1,3 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body {
-    min-width: 320px;
-}
-
-/* navbar */
-.navbar {
-    background: linear-gradient(lightgreen, green, darkgreen);
-}
-
 /* Footer */
 #pie {
     background-color: white;
@@ -90,22 +75,3 @@ body {
 }
 
 /* cierre de Footer */
-
-/* aca comienza el CSS de "Sobre La Tienda" */
-
-.imagen {
-    background-image: url("../img/deposito1.jpg");
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.sobreLaTienda {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-.info {
-    padding-top: 5%;
-}
-
-/* fin de CSS de "Sobre La Tienda" */
