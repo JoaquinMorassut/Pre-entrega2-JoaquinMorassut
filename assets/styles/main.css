@@ -30,6 +30,11 @@ body {
 }
 
 /* fin de CSS de "Sobre La Tienda" */
+/* Abre listado de articulos */
+.ListadoDeArticulos {
+  background-color: blue;
+}
+
 /* Footer */
 #pie {
   background-color: white;
@@ -84,8 +89,6 @@ body {
   border-radius: 50%;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   transition: all 0.4s ease-in-out;
-  -webkit-animation: saltarin 2s infinite;
-          animation: saltarin 2s infinite;
 }
 
 @media (max-width: 1200px) {
