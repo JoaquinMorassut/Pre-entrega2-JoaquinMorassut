@@ -1,6 +1,7 @@
 /* Footer */
 #pie {
-    background: linear-gradient(rgb(170, 252, 170), rgb(107, 221, 107), rgb(72, 199, 72));
+    background-color: #F8F8F8;
+    /*background: linear-gradient(rgb(170, 252, 170), rgb(107, 221, 107), rgb(72, 199, 72));*/
 }
 
 #menu_footer ul {
@@ -27,7 +28,7 @@
 
 
 #menu_footer ul li a:hover {
-    color: #06edfd;
+    color: #757575;
 
 }
 
@@ -54,9 +55,9 @@
     height: 40px;
     line-height: 40px;
     text-align: center;
-    background: #314652;
-    color: #ffffff;
-    border-radius: 50%;
+    background: #293428;
+    color: #F8F8F8;
+    border-radius: 40%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
     transition: all .4s ease-in-out;
 }
