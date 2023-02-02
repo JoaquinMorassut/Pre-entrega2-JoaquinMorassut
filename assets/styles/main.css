@@ -6,6 +6,7 @@
 
 body {
   min-width: 320px;
+  background-color: #F8F8F8;
 }
 
 /* navbar */
@@ -32,7 +33,7 @@ body {
 /* fin de CSS de "Sobre La Tienda" */
 /* Abre listado de articulos */
 .ListadoDeArticulos {
-  background-color: blue;
+  background-color: rgb(190, 221, 199);
 }
 
 /*cierra listado de articulos */
@@ -40,7 +41,6 @@ body {
 /* Footer */
 #pie {
   background-color: #F8F8F8;
-  /*background: linear-gradient(rgb(170, 252, 170), rgb(107, 221, 107), rgb(72, 199, 72));*/
 }
 
 #menu_footer ul {
