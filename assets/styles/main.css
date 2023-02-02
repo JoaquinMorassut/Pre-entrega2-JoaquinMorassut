@@ -33,11 +33,10 @@ body {
 /* fin de CSS de "Sobre La Tienda" */
 /* Abre listado de articulos */
 .ListadoDeArticulos {
-  background-color: rgb(190, 221, 199);
+  background-color: #F8F8F8;
 }
 
 /*cierra listado de articulos */
-/*no lo puedo hacer funcionar D: aiiiudaaa*/
 /* Footer */
 #pie {
   background-color: #F8F8F8;
